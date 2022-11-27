@@ -1,0 +1,19 @@
+index:
+  path: /
+  controller: App\Controller\PostController
+  action: home
+
+showOne:
+  path: /post/{id}
+  controller: App\Controller\PostController
+  action: showOne
+
+login:
+  path: /login
+  controller: App\Controller\SecurityController
+  action: login
+
+register:
+  path: /register
+  controller: App\Controller\SecurityController
+  action: register
